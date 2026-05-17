@@ -1,2 +1,2 @@
-# gamublocksgit.github.io
-Gamu Blocks
+# Gamu Blocks
+Welcome to Gamu Blocks
