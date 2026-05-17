@@ -1,0 +1,16 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.local
+
+# Env / secrets (preemptive)
+.env*
+*.pem
+*.key
+
+# Internal docs
+PRODUCT.md

@@ -1,0 +1,104 @@
+/* =============================================================
+   Gamu Blocks — Foundations
+   Colors, type, spacing, radii, shadows.
+   ============================================================= */
+
+:root {
+  /* Neutrals: warm-tinted OKLCH. Chroma 0.006-0.010 biased toward hue 75. */
+  --ink:   oklch(3%  0.008 75);
+  --ink-2: oklch(6%  0.007 75);
+  --ink-3: oklch(10% 0.007 75);
+  --ink-4: oklch(16% 0.007 75);
+
+  --paper:   oklch(98% 0.005 75);
+  --paper-2: oklch(95% 0.008 75);
+  --paper-3: oklch(91% 0.009 75);
+  --paper-4: oklch(80% 0.010 75);
+
+  --bone:   oklch(94% 0.006 75);
+  --bone-2: oklch(73% 0.007 75);
+  --bone-3: oklch(52% 0.008 75);
+
+  --char:   oklch(8%  0.006 75);
+  --char-2: oklch(31% 0.007 75);
+  --char-3: oklch(52% 0.008 75);
+
+  /* App accents */
+  --neko:    oklch(68% 0.19  41);
+  --journal: oklch(71% 0.16 292);
+  --baby:    oklch(76% 0.09 163);
+  --gronu:   oklch(78% 0.12 218);
+  --gnit:    oklch(68% 0.19 355);
+
+  /* Semantic */
+  --positive: oklch(60% 0.16 145);
+  --negative: oklch(54% 0.17  24);
+  --warn:     oklch(70% 0.17  82);
+  --info:     oklch(50% 0.13 250);
+
+  --accent:        var(--ink);
+  --accent-press:  var(--ink-3);
+  --accent-ink:    var(--paper);
+
+  --font-display:  "Geist", "Zen Kaku Gothic New", system-ui, sans-serif;
+  --font-body:     "Geist", "Zen Kaku Gothic New", system-ui, sans-serif;
+  --font-mono:     "Geist Mono", ui-monospace, "SF Mono", Menlo, monospace;
+
+  --t-caption:     12px;
+  --t-label:       13px;
+  --t-body-sm:     14px;
+  --t-body:        16px;
+  --t-body-lg:     18px;
+  --t-h6:          18px;
+  --t-h5:          22px;
+  --t-h4:          28px;
+  --t-h3:          36px;
+  --t-h2:          48px;
+  --t-h1:          64px;
+  --t-display:     96px;
+
+  --w-regular:     400;
+  --w-medium:      500;
+  --w-semibold:    600;
+  --w-bold:        700;
+  --w-black:       900;
+
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  24px;
+  --space-6:  32px;
+  --space-7:  48px;
+  --space-8:  64px;
+  --space-9:  96px;
+  --space-10: 128px;
+
+  --r-0:  0;
+  --r-1:  4px;
+  --r-2:  8px;
+  --r-3:  12px;
+  --r-4:  16px;
+  --r-5:  20px;
+  --r-pill: 999px;
+
+  --hairline:      1px;
+  --border:        1.5px;
+  --border-heavy:  2px;
+
+  --shadow-block-sm: 3px 3px 0 0 var(--ink);
+  --shadow-block:    5px 5px 0 0 var(--ink);
+  --shadow-block-lg: 8px 8px 0 0 var(--ink);
+
+  --shadow-soft-1:   0 1px 2px rgb(0 0 0 / 0.04);
+  --shadow-soft-2:   0 4px 12px rgb(0 0 0 / 0.06);
+
+  --ease-out:      cubic-bezier(0.2, 0.7, 0.2, 1);
+  --ease-in-out:   cubic-bezier(0.6, 0, 0.4, 1);
+  --dur-fast:      120ms;
+  --dur-base:      180ms;
+  --dur-slow:      280ms;
+
+  --content-w:        1120px;
+  --content-w-narrow: 720px;
+}
