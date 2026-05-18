@@ -40,7 +40,7 @@
       apps: {
         eyebrow: "/ Our apps",
         h2:      "Three apps. One philosophy.",
-        p:       "Each Gamu app does one thing well. No ads, no tracking, no dark patterns.",
+        p:       "Each Gamu app does one thing well. No ads, no tracking, no subscriptions.",
       },
       journal: {
         tag:       "Diary & Mood",
@@ -103,7 +103,7 @@
       apps: {
         eyebrow: "/ アプリ一覧",
         h2:      "3つのアプリ。1つの哲学。",
-        p:       "各Gamuアプリは一つのことを丁寧に行います。広告なし、追跡なし、ダークパターンなし。",
+        p:       "各Gamuアプリは一つのことを丁寧に行います。広告なし、追跡なし、サブスクなし。",
       },
       journal: {
         tag:       "日記・ムードトラッカー",
@@ -166,7 +166,7 @@
       apps: {
         eyebrow: "/ Nossos apps",
         h2:      "Três apps. Uma filosofia.",
-        p:       "Cada app Gamu faz uma coisa bem. Sem anúncios, sem rastreamento, sem dark patterns.",
+        p:       "Cada app Gamu faz uma coisa bem. Sem anúncios, sem rastreamento, sem assinaturas.",
       },
       journal: {
         tag:       "Diário e Humor",
@@ -229,7 +229,7 @@
       apps: {
         eyebrow: "/ Наши приложения",
         h2:      "Три приложения. Одна философия.",
-        p:       "Каждое приложение Gamu делает одну вещь хорошо. Без рекламы, без слежки, без тёмных паттернов.",
+        p:       "Каждое приложение Gamu делает одну вещь хорошо. Без рекламы, без слежки, без подписок.",
       },
       journal: {
         tag:       "Дневник и настроение",
@@ -292,7 +292,7 @@
       apps: {
         eyebrow: "/ Nos applications",
         h2:      "Trois apps. Une philosophie.",
-        p:       "Chaque app Gamu fait une chose bien. Sans publicités, sans pistage, sans dark patterns.",
+        p:       "Chaque app Gamu fait une chose bien. Sans publicités, sans pistage, sans abonnements.",
       },
       journal: {
         tag:       "Journal et Humeur",
@@ -355,7 +355,7 @@
       apps: {
         eyebrow: "/ 앱 소개",
         h2:      "세 개의 앱. 하나의 철학.",
-        p:       "각 Gamu 앱은 한 가지를 잘 합니다. 광고 없음, 추적 없음, 다크 패턴 없음.",
+        p:       "각 Gamu 앱은 한 가지를 잘 합니다. 광고 없음, 추적 없음, 구독 없음.",
       },
       journal: {
         tag:       "일기 & 기분 추적",
