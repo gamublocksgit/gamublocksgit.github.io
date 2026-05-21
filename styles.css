@@ -496,18 +496,20 @@ body {
   padding-top: var(--space-5);
   border-top: var(--hairline) solid var(--ink-4);
 }
-.footer-social a {
-  color: var(--bone-3);
+.footer-social a,
+.footer-social a:visited {
+  color: #fff;
+  text-decoration: none;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   width: 36px;
   height: 36px;
   border-radius: 50%;
-  transition: color var(--dur-fast) var(--ease-out), background var(--dur-fast) var(--ease-out);
+  transition: background var(--dur-fast) var(--ease-out);
 }
 .footer-social a:hover {
-  color: var(--bone);
+  color: #fff;
   background: var(--ink-4);
 }
 
