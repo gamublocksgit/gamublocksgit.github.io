@@ -1,0 +1,103 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { defaultCopy as t } from "../data/copy";
+
+const apps = [
+  {
+    key: "journal",
+    name: "Gamu Journal",
+    icon: "/assets/icon-journal.png",
+    href: "https://gamujournal.gamublocks.com",
+    copy: t.journal,
+  },
+  {
+    key: "baby",
+    name: "Gamu Baby",
+    icon: "/assets/icon-baby.png",
+    href: "https://gamubaby.gamublocks.com",
+    copy: t.baby,
+  },
+  {
+    key: "neko",
+    name: "Gamu Neko",
+    icon: "/assets/icon-neko.png",
+    href: "https://gamuneko.gamublocks.com",
+    copy: t.neko,
+  },
+];
+---
+
+<BaseLayout>
+  <section class="hero" id="top">
+    <div class="wrap">
+      <p class="eyebrow" data-i18n="hero.eyebrow">{t.hero.eyebrow}</p>
+      <h1 data-i18n="hero.h1">{t.hero.h1}</h1>
+      <p class="hero-sub" data-i18n="hero.sub">{t.hero.sub}</p>
+      <div class="hero-chips" role="list">
+        {t.hero.chips.map((chip) => <span class="chip" role="listitem">{chip}</span>)}
+      </div>
+    </div>
+  </section>
+
+  <section class="apps" id="apps">
+    <div class="wrap">
+      <div class="section-header">
+        <p class="eyebrow" data-i18n="apps.eyebrow">{t.apps.eyebrow}</p>
+        <h2 data-i18n="apps.h2">{t.apps.h2}</h2>
+        <p data-i18n="apps.p">{t.apps.p}</p>
+      </div>
+
+      <div class="apps-grid">
+        {
+          apps.map((app) => (
+            <article class="app-card" data-app={app.key} aria-label={`${app.name} details`}>
+              <div class="app-card-header">
+                <img src={app.icon} alt={app.name} class="app-icon" />
+                <div class="app-meta">
+                  <p class="app-tag" data-i18n={`${app.key}.tag`}>{app.copy.tag}</p>
+                  <h3 class="app-name">{app.name}</h3>
+                </div>
+              </div>
+              <p class="app-tagline" data-i18n={`${app.key}.tagline`}>{app.copy.tagline}</p>
+              <p class="app-desc" data-i18n={`${app.key}.p`}>{app.copy.p}</p>
+              <div class="app-footer">
+                <span class="platform-badge" data-i18n={`${app.key}.platforms`}>{app.copy.platforms}</span>
+                <a class="app-cta-btn" href={app.href} aria-label={`View ${app.name}`} target="_blank" rel="noopener">
+                  <span data-i18n={`${app.key}.cta`}>{app.copy.cta}</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <path d="M7 17L17 7M17 7H7M17 7v10"></path>
+                  </svg>
+                </a>
+              </div>
+            </article>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="wrap">
+      <div class="about-inner">
+        <div class="about-copy">
+          <p class="eyebrow" data-i18n="about.eyebrow">{t.about.eyebrow}</p>
+          <h2 data-i18n="about.h2">{t.about.h2}</h2>
+          <p data-i18n="about.p">{t.about.p}</p>
+          <a
+            class="about-play"
+            href="https://play.google.com/store/apps/dev?id=8831894198403002159"
+            aria-label="See all apps on Google Play"
+            data-i18n-attr="aria-label:about.play"
+            target="_blank"
+            rel="noopener"
+          >
+            <img src="/assets/google-play-badge.png" alt="Google Play" height="44" />
+          </a>
+        </div>
+        <ul class="about-facts" role="list">
+          {t.about.facts.map((fact) => <li>{fact}</li>)}
+        </ul>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

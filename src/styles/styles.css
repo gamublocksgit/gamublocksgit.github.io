@@ -1,4 +1,4 @@
-/* Gamu Blocks — studio landing page styles */
+
 
 *, *::before, *::after { box-sizing: border-box; }
 
@@ -16,7 +16,7 @@ body {
   font-feature-settings: "ss01", "cv11";
 }
 
-/* ── utilities ─────────────────────────────────────────────────── */
+
 .sr-only {
   position: absolute;
   width: 1px; height: 1px;
@@ -59,7 +59,7 @@ body {
 }
 .skip-link:focus { translate: 0 0; }
 
-/* ── nav ───────────────────────────────────────────────────────── */
+
 .nav {
   position: sticky;
   top: 0;
@@ -138,7 +138,7 @@ body {
   color: var(--bone);
 }
 
-/* ── hero ──────────────────────────────────────────────────────── */
+
 .hero {
   padding: var(--space-10) 0 var(--space-9);
   position: relative;
@@ -210,7 +210,7 @@ body {
   background: var(--ink-2);
 }
 
-/* ── section shared ────────────────────────────────────────────── */
+
 .section-header {
   text-align: center;
   max-width: 600px;
@@ -232,7 +232,7 @@ body {
   line-height: 1.6;
 }
 
-/* ── apps section ──────────────────────────────────────────────── */
+
 .apps {
   padding: var(--space-9) 0;
   border-top: var(--hairline) solid var(--ink-4);
@@ -393,7 +393,7 @@ body {
 }
 .app-cta-btn svg { flex-shrink: 0; }
 
-/* ── about section ─────────────────────────────────────────────── */
+
 .about {
   padding: var(--space-9) 0;
   border-top: var(--hairline) solid var(--ink-4);
@@ -464,7 +464,7 @@ body {
   flex-shrink: 0;
 }
 
-/* ── footer ────────────────────────────────────────────────────── */
+
 .footer {
   border-top: var(--hairline) solid var(--ink-4);
   padding: var(--space-7) 0 var(--space-8);
@@ -541,14 +541,14 @@ body {
   text-align: right;
 }
 
-/* ── focus styles ──────────────────────────────────────────────── */
+
 :focus-visible {
   outline: 2px solid var(--bone-3);
   outline-offset: 2px;
   border-radius: var(--r-1);
 }
 
-/* ── responsive ────────────────────────────────────────────────── */
+
 @media (max-width: 768px) {
   .hero { padding: var(--space-9) 0 var(--space-8); }
 

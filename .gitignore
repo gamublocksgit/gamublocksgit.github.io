@@ -12,5 +12,12 @@ Thumbs.db
 *.pem
 *.key
 
+# Dependencies / build output
+node_modules/
+.astro/
+dist/
+
 # Internal docs
+docs/
 PRODUCT.md
+DESIGN.md
