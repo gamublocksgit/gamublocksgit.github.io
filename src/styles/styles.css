@@ -244,6 +244,40 @@ body {
   gap: var(--space-6);
 }
 
+.app-summaries {
+  list-style: none;
+  padding: 0;
+  margin: var(--space-8) 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.app-summary-title {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-weight: var(--w-semibold);
+  font-size: var(--t-body-sm);
+  color: var(--bone);
+  margin: 0 0 var(--space-2);
+}
+
+.app-summary-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: var(--r-1);
+  object-fit: cover;
+}
+
+.app-summary-desc {
+  font-size: var(--t-body-sm);
+  line-height: 1.6;
+  color: var(--bone-2);
+  max-width: 65ch;
+  margin: 0;
+}
+
 /* app card */
 .app-card {
   background: var(--ink-2);

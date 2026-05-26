@@ -73,6 +73,20 @@ const apps = [
           ))
         }
       </div>
+
+      <ul class="app-summaries" role="list">
+        {
+          apps.map((app) => (
+            <li class="app-summary">
+              <p class="app-summary-title">
+                <img src={app.icon} alt="" aria-hidden="true" class="app-summary-icon" />
+                <span>{app.name}</span>
+              </p>
+              <p class="app-summary-desc" data-i18n={`${app.key}.summary`}>{app.copy.summary}</p>
+            </li>
+          ))
+        }
+      </ul>
     </div>
   </section>
 
