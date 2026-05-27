@@ -134,7 +134,7 @@ const en: SiteCopy = {
   },
   footer: {
     tagline: "Small apps. Honest design.",
-    copy: "© 2025 Gamu Blocks",
+    copy: "© 2026 Gamu Blocks",
     links: ["Gamu Journal", "Gamu Baby", "Gamu Neko"],
     contact: "Contact Us",
   },
@@ -205,7 +205,7 @@ const ja: SiteCopy = {
   },
   footer: {
     tagline: "小さなアプリ。誠実なデザイン。",
-    copy: "© 2025 Gamu Blocks",
+    copy: "© 2026 Gamu Blocks",
     links: ["Gamu Journal", "Gamu Baby", "Gamu Neko"],
     contact: "お問い合わせ",
   },
@@ -276,7 +276,7 @@ const pt_BR: SiteCopy = {
   },
   footer: {
     tagline: "Apps pequenos. Design honesto.",
-    copy: "© 2025 Gamu Blocks",
+    copy: "© 2026 Gamu Blocks",
     links: ["Gamu Journal", "Gamu Baby", "Gamu Neko"],
     contact: "Fale conosco",
   },
@@ -347,7 +347,7 @@ const ru: SiteCopy = {
   },
   footer: {
     tagline: "Небольшие приложения. Честный дизайн.",
-    copy: "© 2025 Gamu Blocks",
+    copy: "© 2026 Gamu Blocks",
     links: ["Gamu Journal", "Gamu Baby", "Gamu Neko"],
     contact: "Связаться с нами",
   },
@@ -418,7 +418,7 @@ const fr: SiteCopy = {
   },
   footer: {
     tagline: "Petites apps. Design honnête.",
-    copy: "© 2025 Gamu Blocks",
+    copy: "© 2026 Gamu Blocks",
     links: ["Gamu Journal", "Gamu Baby", "Gamu Neko"],
     contact: "Nous contacter",
   },
@@ -489,7 +489,7 @@ const ko: SiteCopy = {
   },
   footer: {
     tagline: "작은 앱. 정직한 디자인.",
-    copy: "© 2025 Gamu Blocks",
+    copy: "© 2026 Gamu Blocks",
     links: ["Gamu Journal", "Gamu Baby", "Gamu Neko"],
     contact: "문의하기",
   },
