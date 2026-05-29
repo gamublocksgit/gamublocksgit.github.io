@@ -73,7 +73,7 @@ const en: SiteCopy = {
   meta: {
     title: "Gamu Blocks - Apps built for calm",
     description:
-      "An indie studio making small, focused apps that respect your attention and protect your privacy. Gamu Journal, Gamu Baby, Gamu Neko.",
+      "An indie studio making small, focused apps that respect your attention and protect your privacy. Gamu Journal, Gamu Baby, Gamu Nemu.",
     ogTitle: "Gamu Blocks - Apps built for calm",
     ogDescription: "Small, focused apps that respect your attention.",
   },
@@ -135,7 +135,7 @@ const en: SiteCopy = {
   footer: {
     tagline: "Small apps. Honest design.",
     copy: "© 2026 Gamu Blocks",
-    links: ["Gamu Journal", "Gamu Baby", "Gamu Neko"],
+    links: ["Gamu Journal", "Gamu Baby", "Gamu Nemu"],
     contact: "Contact Us",
   },
 };
@@ -144,7 +144,7 @@ const ja: SiteCopy = {
   meta: {
     title: "Gamu Blocks - 穏やかなアプリ",
     description:
-      "集中を尊重し、プライバシーを守る小さなアプリをつくるインディー開発スタジオ。Gamu Journal、Gamu Baby、Gamu Neko。",
+      "集中を尊重し、プライバシーを守る小さなアプリをつくるインディー開発スタジオ。Gamu Journal、Gamu Baby、Gamu Nemu。",
     ogTitle: "Gamu Blocks - 穏やかなアプリ",
     ogDescription: "集中を尊重する、小さく丁寧なアプリ。",
   },
@@ -206,7 +206,7 @@ const ja: SiteCopy = {
   footer: {
     tagline: "小さなアプリ。誠実なデザイン。",
     copy: "© 2026 Gamu Blocks",
-    links: ["Gamu Journal", "Gamu Baby", "Gamu Neko"],
+    links: ["Gamu Journal", "Gamu Baby", "Gamu Nemu"],
     contact: "お問い合わせ",
   },
 };
@@ -215,7 +215,7 @@ const pt_BR: SiteCopy = {
   meta: {
     title: "Gamu Blocks - Apps feitos para a calma",
     description:
-      "Um estúdio independente criando apps pequenos e focados que respeitam sua atenção e protegem sua privacidade. Gamu Journal, Gamu Baby, Gamu Neko.",
+      "Um estúdio independente criando apps pequenos e focados que respeitam sua atenção e protegem sua privacidade. Gamu Journal, Gamu Baby, Gamu Nemu.",
     ogTitle: "Gamu Blocks - Apps feitos para a calma",
     ogDescription: "Apps pequenos e focados que respeitam sua atenção.",
   },
@@ -277,7 +277,7 @@ const pt_BR: SiteCopy = {
   footer: {
     tagline: "Apps pequenos. Design honesto.",
     copy: "© 2026 Gamu Blocks",
-    links: ["Gamu Journal", "Gamu Baby", "Gamu Neko"],
+    links: ["Gamu Journal", "Gamu Baby", "Gamu Nemu"],
     contact: "Fale conosco",
   },
 };
@@ -286,7 +286,7 @@ const ru: SiteCopy = {
   meta: {
     title: "Gamu Blocks - приложения для спокойствия",
     description:
-      "Независимая студия, которая создает небольшие сфокусированные приложения, уважающие ваше внимание и приватность. Gamu Journal, Gamu Baby, Gamu Neko.",
+      "Независимая студия, которая создает небольшие сфокусированные приложения, уважающие ваше внимание и приватность. Gamu Journal, Gamu Baby, Gamu Nemu.",
     ogTitle: "Gamu Blocks - приложения для спокойствия",
     ogDescription: "Небольшие приложения, которые уважают ваше внимание.",
   },
@@ -348,7 +348,7 @@ const ru: SiteCopy = {
   footer: {
     tagline: "Небольшие приложения. Честный дизайн.",
     copy: "© 2026 Gamu Blocks",
-    links: ["Gamu Journal", "Gamu Baby", "Gamu Neko"],
+    links: ["Gamu Journal", "Gamu Baby", "Gamu Nemu"],
     contact: "Связаться с нами",
   },
 };
@@ -357,7 +357,7 @@ const fr: SiteCopy = {
   meta: {
     title: "Gamu Blocks - Des apps conçues pour le calme",
     description:
-      "Un studio indépendant qui crée de petites apps ciblées, respectueuses de votre attention et de votre vie privée. Gamu Journal, Gamu Baby, Gamu Neko.",
+      "Un studio indépendant qui crée de petites apps ciblées, respectueuses de votre attention et de votre vie privée. Gamu Journal, Gamu Baby, Gamu Nemu.",
     ogTitle: "Gamu Blocks - Des apps conçues pour le calme",
     ogDescription: "De petites apps ciblées qui respectent votre attention.",
   },
@@ -419,7 +419,7 @@ const fr: SiteCopy = {
   footer: {
     tagline: "Petites apps. Design honnête.",
     copy: "© 2026 Gamu Blocks",
-    links: ["Gamu Journal", "Gamu Baby", "Gamu Neko"],
+    links: ["Gamu Journal", "Gamu Baby", "Gamu Nemu"],
     contact: "Nous contacter",
   },
 };
@@ -428,7 +428,7 @@ const ko: SiteCopy = {
   meta: {
     title: "Gamu Blocks - 차분함을 위한 앱",
     description:
-      "사용자의 집중과 개인정보를 존중하는 작고 명확한 앱을 만드는 인디 스튜디오입니다. Gamu Journal, Gamu Baby, Gamu Neko.",
+      "사용자의 집중과 개인정보를 존중하는 작고 명확한 앱을 만드는 인디 스튜디오입니다. Gamu Journal, Gamu Baby, Gamu Nemu.",
     ogTitle: "Gamu Blocks - 차분함을 위한 앱",
     ogDescription: "사용자의 집중을 존중하는 작고 명확한 앱.",
   },
@@ -490,7 +490,7 @@ const ko: SiteCopy = {
   footer: {
     tagline: "작은 앱. 정직한 디자인.",
     copy: "© 2026 Gamu Blocks",
-    links: ["Gamu Journal", "Gamu Baby", "Gamu Neko"],
+    links: ["Gamu Journal", "Gamu Baby", "Gamu Nemu"],
     contact: "문의하기",
   },
 };
