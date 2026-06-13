@@ -4,6 +4,14 @@ import { defaultCopy as t } from "../data/copy";
 
 const apps = [
   {
+    key: "mikenchi",
+    name: "Mikenchi no Nichijou",
+    icon: "/assets/mikenchi-avatar.png",
+    logo: "/assets/mikenchi-logotype.png",
+    href: "https://mikenchi.gamublocks.com/",
+    copy: t.mikenchi,
+  },
+  {
     key: "journal",
     name: "Gamu Journal",
     icon: "/assets/icon-journal.png",
@@ -58,6 +66,13 @@ const apps = [
                   <h3 class="app-name">{app.name}</h3>
                 </div>
               </div>
+              {
+                app.logo && (
+                  <div class="app-logotype-wrap">
+                    <img src={app.logo} alt="" aria-hidden="true" class="app-logotype" />
+                  </div>
+                )
+              }
               <p class="app-tagline" data-i18n={`${app.key}.tagline`}>{app.copy.tagline}</p>
               <p class="app-desc" data-i18n={`${app.key}.p`}>{app.copy.p}</p>
               <div class="app-footer">

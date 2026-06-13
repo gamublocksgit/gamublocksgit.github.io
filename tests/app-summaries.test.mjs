@@ -8,17 +8,28 @@ test("renders one localized summary row for each app", async () => {
   const html = await readFile(new URL("dist/index.html", rootUrl), "utf8");
 
   assert.match(html, /class="app-summaries"/);
-  assert.equal((html.match(/class="app-summary"/g) ?? []).length, 3);
+  assert.equal((html.match(/class="app-summary"/g) ?? []).length, 4);
+  assert.match(html, /data-i18n="mikenchi\.summary"/);
   assert.match(html, /data-i18n="journal\.summary"/);
   assert.match(html, /data-i18n="baby\.summary"/);
   assert.match(html, /data-i18n="neko\.summary"/);
+  assert.ok(html.indexOf('data-i18n="mikenchi.summary"') < html.indexOf('data-i18n="journal.summary"'));
+});
+
+test("renders the Mikenchi tile with its destination and supplied branding", async () => {
+  const html = await readFile(new URL("dist/index.html", rootUrl), "utf8");
+
+  assert.match(html, /data-app="mikenchi"/);
+  assert.match(html, /href="https:\/\/mikenchi\.gamublocks\.com\/?"/);
+  assert.match(html, /src="\/assets\/mikenchi-avatar\.png"/);
+  assert.match(html, /src="\/assets\/mikenchi-logotype\.png"/);
 });
 
 test("supplies translated summary copy for every app and locale", async () => {
   const copySource = await readFile(new URL("src/data/copy.ts", rootUrl), "utf8");
 
   assert.match(copySource, /\bsummary:\s*string;/);
-  assert.equal((copySource.match(/\bsummary:\s*\n?\s*"/g) ?? []).length, 18);
+  assert.equal((copySource.match(/\bsummary:\s*\n?\s*"/g) ?? []).length, 24);
 });
 
 test("summary list styles use existing design tokens", async () => {

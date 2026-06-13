@@ -293,6 +293,7 @@ body {
 }
 
 /* accent top border per app */
+.app-card[data-app="mikenchi"]::before { --card-accent: var(--mikenchi); }
 .app-card[data-app="journal"]::before { --card-accent: var(--journal); }
 .app-card[data-app="baby"]::before    { --card-accent: var(--baby);    }
 .app-card[data-app="neko"]::before    { --card-accent: var(--neko);    }
@@ -311,6 +312,7 @@ body {
 }
 
 /* accent glow on hover */
+.app-card[data-app="mikenchi"]:hover { box-shadow: 0 8px 32px color-mix(in oklch, var(--mikenchi) 12%, transparent); }
 .app-card[data-app="journal"]:hover { box-shadow: 0 8px 32px color-mix(in oklch, var(--journal) 12%, transparent); }
 .app-card[data-app="baby"]:hover    { box-shadow: 0 8px 32px color-mix(in oklch, var(--baby)    12%, transparent); }
 .app-card[data-app="neko"]:hover    { box-shadow: 0 8px 32px color-mix(in oklch, var(--neko)    12%, transparent); }
@@ -340,6 +342,22 @@ body {
 
 .app-meta { flex: 1; min-width: 0; }
 
+.app-logotype-wrap {
+  min-height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--r-3);
+  background: #fff8e8;
+}
+
+.app-logotype {
+  display: block;
+  width: min(100%, 300px);
+  height: auto;
+}
+
 .app-tag {
   font-size: var(--t-caption);
   font-weight: var(--w-semibold);
@@ -349,6 +367,7 @@ body {
   margin: 0 0 var(--space-1);
 }
 
+.app-card[data-app="mikenchi"] .app-tag { color: var(--mikenchi); }
 .app-card[data-app="journal"] .app-tag { color: var(--journal); }
 .app-card[data-app="baby"]    .app-tag { color: var(--baby);    }
 .app-card[data-app="neko"]    .app-tag { color: var(--neko);    }

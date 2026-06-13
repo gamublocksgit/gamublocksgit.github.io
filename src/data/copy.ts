@@ -33,6 +33,7 @@ export type SiteCopy = {
     h2: string;
     p: string;
   };
+  mikenchi: AppCopy;
   journal: AppCopy;
   baby: AppCopy;
   neko: AppCopy;
@@ -95,8 +96,17 @@ const en: SiteCopy = {
   },
   apps: {
     eyebrow: "/ Our apps",
-    h2: "Three apps. One philosophy.",
-    p: "Each Gamu app does one thing well. No ads, no tracking, no subscriptions.",
+    h2: "Four projects. One philosophy.",
+    p: "Each Gamu project is made with care, focus, and respect for your attention.",
+  },
+  mikenchi: {
+    tag: "Webtoon",
+    tagline: "A gentle slice-of-life webtoon.",
+    p: "Follow Mikenchi through small everyday moments, quiet humor, and warm encounters.",
+    summary:
+      "A cozy slice-of-life webtoon about Mikenchi's everyday adventures, quiet humor, and the small moments that make ordinary days special.",
+    platforms: "Read online",
+    cta: "Read webtoon",
   },
   journal: {
     tag: "Diary & Mood",
@@ -166,8 +176,17 @@ const ja: SiteCopy = {
   },
   apps: {
     eyebrow: "/ アプリ",
-    h2: "3つのアプリ。ひとつの考え方。",
-    p: "Gamu のアプリは、それぞれひとつのことを丁寧に行います。広告なし、追跡なし、サブスクリプションなし。",
+    h2: "4つのプロジェクト。ひとつの想い。",
+    p: "Gamu のプロジェクトは、心を込め、集中を大切にし、あなたの時間を尊重して作られています。",
+  },
+  mikenchi: {
+    tag: "ウェブトゥーン",
+    tagline: "やさしい日常を描くウェブトゥーン。",
+    p: "ミケンチの小さな日常、静かなユーモア、あたたかな出会いをお楽しみください。",
+    summary:
+      "ミケンチの日々の冒険と静かなユーモア、何気ない一日を特別にする小さな瞬間を描く、心あたたまる日常系ウェブトゥーン。",
+    platforms: "オンラインで読む",
+    cta: "ウェブトゥーンを読む",
   },
   journal: {
     tag: "日記・気分",
@@ -237,8 +256,17 @@ const pt_BR: SiteCopy = {
   },
   apps: {
     eyebrow: "/ Nossos apps",
-    h2: "Três apps. Uma filosofia.",
-    p: "Cada app Gamu faz uma coisa bem. Sem anúncios, sem rastreamento, sem assinaturas.",
+    h2: "Quatro projetos. Uma filosofia.",
+    p: "Cada projeto Gamu é feito com cuidado, foco e respeito pela sua atenção.",
+  },
+  mikenchi: {
+    tag: "Webtoon",
+    tagline: "Um webtoon leve sobre a vida cotidiana.",
+    p: "Acompanhe Mikenchi em pequenos momentos do dia a dia, humor tranquilo e encontros acolhedores.",
+    summary:
+      "Um webtoon aconchegante sobre as aventuras diárias de Mikenchi, humor tranquilo e os pequenos momentos que tornam dias comuns especiais.",
+    platforms: "Leia online",
+    cta: "Ler webtoon",
   },
   journal: {
     tag: "Diário e Humor",
@@ -308,8 +336,17 @@ const ru: SiteCopy = {
   },
   apps: {
     eyebrow: "/ Наши приложения",
-    h2: "Три приложения. Одна философия.",
-    p: "Каждое приложение Gamu хорошо делает одну задачу. Без рекламы, без отслеживания, без подписок.",
+    h2: "Четыре проекта. Одна философия.",
+    p: "Каждый проект Gamu создается с заботой, вниманием и уважением к вашему времени.",
+  },
+  mikenchi: {
+    tag: "Вебтун",
+    tagline: "Добрый вебтун о повседневной жизни.",
+    p: "Следите за маленькими повседневными моментами Микэнти, тихим юмором и теплыми встречами.",
+    summary:
+      "Уютный вебтун о повседневных приключениях Микэнти, тихом юморе и маленьких моментах, которые делают обычные дни особенными.",
+    platforms: "Читать онлайн",
+    cta: "Читать вебтун",
   },
   journal: {
     tag: "Дневник и настроение",
@@ -379,8 +416,17 @@ const fr: SiteCopy = {
   },
   apps: {
     eyebrow: "/ Nos apps",
-    h2: "Trois apps. Une philosophie.",
-    p: "Chaque app Gamu fait bien une seule chose. Sans publicité, sans suivi, sans abonnements.",
+    h2: "Quatre projets. Une philosophie.",
+    p: "Chaque projet Gamu est créé avec soin, concentration et respect de votre attention.",
+  },
+  mikenchi: {
+    tag: "Webtoon",
+    tagline: "Un doux webtoon tranche de vie.",
+    p: "Suivez Mikenchi dans de petits moments du quotidien, un humour discret et des rencontres chaleureuses.",
+    summary:
+      "Un webtoon chaleureux sur les aventures quotidiennes de Mikenchi, son humour discret et les petits moments qui rendent les journées ordinaires spéciales.",
+    platforms: "Lire en ligne",
+    cta: "Lire le webtoon",
   },
   journal: {
     tag: "Journal et humeur",
@@ -450,8 +496,17 @@ const ko: SiteCopy = {
   },
   apps: {
     eyebrow: "/ 앱",
-    h2: "세 가지 앱. 하나의 철학.",
-    p: "Gamu 앱은 각각 한 가지 일을 제대로 합니다. 광고 없음, 추적 없음, 구독 없음.",
+    h2: "네 개의 프로젝트. 하나의 철학.",
+    p: "모든 Gamu 프로젝트는 정성과 집중, 사용자의 시간을 존중하는 마음으로 만듭니다.",
+  },
+  mikenchi: {
+    tag: "웹툰",
+    tagline: "따뜻한 일상 속 이야기를 담은 웹툰.",
+    p: "미켄치의 소소한 일상과 잔잔한 유머, 따뜻한 만남을 함께하세요.",
+    summary:
+      "미켄치의 일상 속 모험과 잔잔한 유머, 평범한 하루를 특별하게 만드는 작은 순간들을 담은 포근한 일상 웹툰.",
+    platforms: "온라인에서 읽기",
+    cta: "웹툰 읽기",
   },
   journal: {
     tag: "일기와 기분",
