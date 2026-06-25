@@ -25,6 +25,15 @@ test("renders the Mikenchi tile with its destination and supplied branding", asy
   assert.match(html, /src="\/assets\/mikenchi-logotype\.png"/);
 });
 
+test("describes Mikenchi as a story with a flexible call to action", async () => {
+  const html = await readFile(new URL("dist/index.html", rootUrl), "utf8");
+  const copySource = await readFile(new URL("src/data/copy.ts", rootUrl), "utf8");
+
+  assert.match(html, /data-i18n="mikenchi\.tag">Story</);
+  assert.match(html, /data-i18n="mikenchi\.cta">Learn more</);
+  assert.doesNotMatch(copySource, /webtoon|ウェブトゥーン|вебтун|웹툰/i);
+});
+
 test("supplies translated summary copy for every app and locale", async () => {
   const copySource = await readFile(new URL("src/data/copy.ts", rootUrl), "utf8");
 
